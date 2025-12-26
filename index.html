@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voting Page</title>
+  </head>
+  <body>
+    <h1>Vote for Your Candidate</h1>
+    <form action="vote" method="post">
+      <label for="username"> Username: </label
+      ><input type="text" id="username" name="username" required /><br /><br />
+      <label for="candidate1">Alice</label>
+      <input type="radio" id="candidate1" name="candidate" value="1" required />
+      <br />
+      <label for="candidate2">Bob</label>
+      <input type="radio" id="candidate2" name="candidate" value="2" /> <br />
+      <label for="candidate3">Charlie</label>
+      <input type="radio" id="candidate3" name="candidate" value="3" />
+      <br /><br />
+      <input type="submit" value="Vote" />
+    </form>
+  </body>
+</html>
