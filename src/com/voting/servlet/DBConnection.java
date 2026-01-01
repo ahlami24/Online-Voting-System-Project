@@ -15,7 +15,7 @@ public class DBConnection {
                 connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/online_voting", 
                     "root",       
-                    "Iloveyoumom100%"   
+                    "Iloveyouagainandagain"   
                 );
             }
         } catch (ClassNotFoundException | SQLException e) {
